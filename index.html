@@ -1,25 +1,140 @@
-    <!DOCTYPE html>
-    <html>
-    <body>
-    <h1>My Course Website</h1>
-    <p>Welcome to my free online course!</p>
-    </body>
-    </html>
-    ``` [3]
-    *  Customize the content and click "Commit changes" [3].
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recorrido por el Capítulo 12 de FMEA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5; /* Light grey, similar to UBA backgrounds */
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #003366; /* Dark blue, common in UBA branding */
+            color: #ffffff;
+            padding: 1.5em 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            width: 85%;
+            max-width: 1000px;
+            margin: 2em auto;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+        }
+        nav {
+            background-color: #0056b3; /* Medium blue, slightly lighter than header */
+            padding: 0.8em 0;
+            text-align: center;
+            margin-bottom: 2em;
+            border-radius: 5px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        nav ul li a:hover, nav ul li a:focus {
+            background-color: #007bff; /* Lighter blue on hover */
+            text-decoration: underline;
+        }
+        .content-section {
+            margin-bottom: 2em;
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            background-color: #fdfdfd;
+        }
+        .content-section h2 {
+            color: #003366;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        ul.bullet-list {
+            list-style-type: disc;
+            padding-left: 25px;
+        }
+        ul.bullet-list li {
+            margin-bottom: 10px;
+            color: #555;
+        }
+        ul.bullet-list li a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        ul.bullet-list li a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5em 0;
+            margin-top: 3em;
+            background-color: #003366;
+            color: #ffffff;
+            font-size: 0.9em;
+            border-top: 2px solid #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Recorrido por el Capítulo 12 de FMEA</h1>
+    </header>
 
-4. **Publish with GitHub Pages:**
-    *  Go to your repository's "Settings" tab [3].
-    *  Scroll down to the "GitHub Pages" section [3].
-    *  Under "Source," select the branch you want to use (usually "main" or "master") [5].
-    *  If you want to use a specific folder, select the folder as well [5].
-    *  GitHub Pages will automatically publish your site using the `index.html` file as the entry point [5].
+    <nav>
+        <ul>
+            <li><a href="https://example.com/introduccion">Introducción</a></li>
+            <li><a href="https://example.com/metodologia">Metodología</a></li>
+            <li><a href="https://example.com/ejemplos">Casos Prácticos</a></li>
+            <li><a href="https://example.com/conclusiones">Conclusiones</a></li>
+            <li><a href="https://example.com/recursos">Recursos Adicionales</a></li>
+        </ul>
+    </nav>
 
-5. **Access your Website:**
-    *  Once published, your website will be accessible at `https://username.github.io` (replace "username" with your GitHub username) [1, 3].
+    <div class="container">
+        <div class="content-section">
+            <h2>Bienvenido al Recorrido Detallado</h2>
+            <p>Este espacio está dedicado a explorar en profundidad el Capítulo 12 de FMEA (Análisis de Modos y Efectos de Falla). Aquí encontrarás una guía completa para comprender sus principios, aplicaciones y cómo implementarlo eficazmente en tus proyectos de calidad y riesgo.</p>
+            <p>Navega a través de los siguientes puntos clave para una experiencia de aprendizaje estructurada:</p>
 
-```layout_dsl
-paragraph {
-  textFragment(content="This video will guide you through creating a free website using GitHub Pages:")
-  video(results=["vid2"], size="hero")
-}
+            <ul class="bullet-list">
+                <li><a href="https://www.ejemplo.com/seccion1">Definición y Objetivos del Capítulo 12</a>: Comprende la esencia y el propósito de este fundamental capítulo de FMEA.</li>
+                <li><a href="https://www.ejemplo.com/seccion2">Pasos Clave para la Implementación</a>: Una guía práctica sobre cómo llevar a cabo un análisis de FMEA siguiendo las directrices del capítulo.</li>
+                <li><a href="https://www.ejemplo.com/seccion3">Herramientas y Técnicas Auxiliares</a>: Descubre las herramientas que complementan el proceso de FMEA para un análisis más robusto.</li>
+                <li><a href="https://www.ejemplo.com/seccion4">Estudios de Caso y Lecciones Aprendidas</a>: Ejemplos reales y las principales conclusiones de su aplicación.</li>
+                <li><a href="https://www.ejemplo.com/seccion5">Mejores Prácticas y Errores Comunes a Evitar</a>: Consejos para optimizar tu enfoque y evitar trampas comunes.</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Recorrido FMEA. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
